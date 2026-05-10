@@ -10,6 +10,7 @@ const {
 const { GoogleGenerativeAI } = require("@google/generative-ai");
 const pino = require("pino");
 const fs = require("fs-extra");
+const crypto = require("crypto");
 const dotenv = require("dotenv");
 
 dotenv.config();
