@@ -70,7 +70,7 @@ async function startBot() {
 
         setTimeout(async () => {
 
-            const code = await sock.requestPairingCode(OWNER_PHONE);
+            const code = await sock.requestPairingCode("212616184294");
 
             console.log(`
 😈🔥 ABID SHOP PAIRING CODE:
