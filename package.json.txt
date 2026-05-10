@@ -1,0 +1,21 @@
+{
+  "name": "abid-shop-bot",
+  "version": "2.0.0",
+  "description": "Professional WhatsApp AI Assistant for ABID SHOP",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.6.0",
+    "@google/generative-ai": "^0.21.0",
+    "dotenv": "^16.4.5",
+    "pino": "^9.0.0",
+    "fs-extra": "^11.2.0",
+    "mime-types": "^2.1.35",
+    "link-preview-js": "^3.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
