@@ -14,8 +14,8 @@ const dotenv = require("dotenv");
 
 dotenv.config();
 
-const OWNER_PHONE = process.env.OWNER_NUMBER;
-const API_KEY = process.env.GEMINI_API_KEY;
+const OWNER_PHONE = process.env.212616184294;
+const API_KEY = process.env.AIzaSyAm9KoBh4jMKUKEQHkDXVr4V5JqeLJqKiw;
 
 const dbFile = './abid_shop_db.json';
 
